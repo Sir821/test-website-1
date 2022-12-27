@@ -24,8 +24,22 @@
 	</head>
 
 	<body>
-		<h2>If the message down below is “Hello there!” and it is blue, everything works alright</h2>
-		<p id="test">If you see this, something went wrong</p>
+		<div class="add-todo container">
+			<input type="text" name="" id="" placeholder="Enter an activity.." />
+			<button>+</button>
+		</div>
+		<div class="todos container">
+			<div class="todos_undone">
+				<div class="todo todo-undone">
+					<h3>Help Alex with his homework</h3>
+					<div class="icon delete"></div>
+					<div class="todo_divider"></div>
+					<div class="icon set-done"></div>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="todos_done"></div>
+		</div>
 
 		<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
 		<script src="../js/plugins.js"></script>

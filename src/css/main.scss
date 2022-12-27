@@ -1,6 +1,41 @@
-$blue: blue;
+.container {
+	padding: 1rem;
+}
 
-p {
-	font-weight: bold;
-	color: $blue;
+.add-todo {
+	display: flex;
+
+	background-color: #3cc19d;
+
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+
+	align-content: center;
+
+	input {
+		flex-grow: 1;
+
+		background-color: #63cdb0;
+		color: white;
+
+		padding: 0.5rem;
+		margin-right: -1.3rem;
+
+		border: none;
+		border-radius: 0.5rem;
+
+		&::placeholder {
+			color: white;
+		}
+	}
+
+	button {
+		width: 2.3rem;
+
+		border: none;
+		border-radius: 50%;
+		font-size: 2rem;
+		color: #3cc19d;
+		background-color: white;
+	}
 }
